@@ -2,17 +2,33 @@
 
 buildscript {
     repositories {
+        maven {
+            url "http://maven.aliyun.com/nexus/content/groups/public"
+        }
         jcenter()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
 allprojects {
     repositories {
+        maven {
+            url "http://maven.aliyun.com/nexus/content/groups/public"
+        }
         jcenter()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 
 }
@@ -24,7 +40,7 @@ task clean(type: Delete) {
 def supportVersion = "25.3.1"
 project.ext {
     compileSdkVersion = 25
-    buildToolsVersion = "25.0.2"
+    buildToolsVersion = "27.0.3"
 
     applicationId = "com.hitomi.transferimage"
     minSdkVersion = 14

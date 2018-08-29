@@ -53,6 +53,7 @@ artifacts {
 }
 
 dependencies {
-    compile rootProject.ext.libSupportV7
-    compile 'com.github.filippudak.progresspieview:library:1.0.4'
+    implementation rootProject.ext.libSupportV7
+    implementation 'com.github.filippudak.progresspieview:library:1.0.4'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.15'
 }

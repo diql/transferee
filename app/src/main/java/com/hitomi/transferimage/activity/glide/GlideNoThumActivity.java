@@ -25,16 +25,14 @@ public class GlideNoThumActivity extends BaseActivity {
 
     {
         sourceImageList = new ArrayList<>();
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201706/9999/d38274f15c.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201706/9999/061548f1fb.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201706/9999/4a85dd9bd9.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201706/9999/a6c57f438d.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201706/9999/b6ae25c618.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201612/562/lua4uwojfds.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201612/562/4hp4d1fcocu.jpg");
-        sourceImageList.add("http://t2.27270.com/uploads/tu/201612/562/d2madqozild.jpg");
-        sourceImageList.add("http://ww1.sinaimg.cn/large/9be2329dgw1etlyb1yu49j20c82p6qc1.jpg");
-
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/81d95490f123d71beee48eff8b7cd7ab.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/e1d163dc2031e65354b0fda374731976.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/4d9dd29e66aab20a83ed8ebbb86a6fac.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/ef333327e76cc2fed869ac1b07b762f5.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/e7d25b54b9465e94cadb7671abecfc2c.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/bbb28a41bb472190f85e54a53259283e.gif");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/03c29c6d21caf27fb8f83c3f08c5a479.jpeg");
+        sourceImageList.add("http://funny.5dktv.com/sysdata/image/2018/08/02/693a5e75ed4be70820b0c2d0911c9559.jpeg");
     }
 
     @Override

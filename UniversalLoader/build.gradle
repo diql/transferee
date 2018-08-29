@@ -55,7 +55,7 @@ artifacts {
 }
 
 dependencies {
-    compile project(':Transferee')
+    implementation project(':Transferee')
 
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 }
